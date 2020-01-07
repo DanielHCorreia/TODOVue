@@ -3,8 +3,8 @@
     <v-form  v-model="valid">
       <v-container style="d-flex justify-center align-center">
         <v-row>
-          <v-col cols="8" xs="4" style="margin: 0 auto; margin-top: 50%" v-if="naoLogado">
-            <v-card :elevation="10" id="form">
+          <v-col cols="8" xs="4" class="login-box" v-if="naoLogado">
+            <v-card :elevation="10" class="login-box-form">
               <p class="text-center">Acesse com seu email</p>
               <v-text-field
                 v-model="email"
@@ -13,13 +13,13 @@
                 required
               ></v-text-field>
               <div class="d-flex flex-row-reverse">
-                <v-btn rounded small right @click="naoLogado = !naoLogado">Ir</v-btn>
+                <v-btn rounded small @click="naoLogado = !naoLogado">Ir</v-btn>
               </div>
             </v-card>
           </v-col>
 
-          <v-col cols="8" xs="4" style="margin: 0 auto; margin-top: 50%" v-else>
-            <v-card :elevation="10" id="form">
+          <v-col cols="8" xs="4" class="login-box" v-else>
+            <v-card :elevation="10" class="login-box-form">
               <p class="text-center">Entrar na conta</p>
               <v-text-field
                 v-model="email"
@@ -37,9 +37,8 @@
                 required
                 @click:append="mostrar = !mostrar"
               ></v-text-field>
-              <small class="mt-4">Não é cadastrado? Clique aqui.</small>
               <div class="d-flex flex-row-reverse">
-                <v-btn rounded small right @click="naoLogado = !naoLogado">Ir</v-btn>
+                <v-btn rounded small @click="naoLogado = !naoLogado">Ir</v-btn>
               </div>
             </v-card>
           </v-col>
@@ -67,20 +66,34 @@ export default {
 </script>
 
 <style scoped>
-  #login {
-    background-color: blueviolet;
+  @import url('https://fonts.googleapis.com/css?family=Public+Sans:400,700&display=swap');
+
+  * {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
   }
 
-  #form {
+  #login {
+    background-color: #50435D;
+  }
+
+  .login-box {
+    margin: 0 auto;
+    margin-top: 50%;
+  }
+
+  .login-box-form {
     background-color: white;
     padding: 10px;
   }
 
   .theme--light.v-btn:not(.v-btn--flat):not(.v-btn--text):not(.v-btn--outlined) {
-    background-color: purple;
+    background-color: #50435D;
   }
 
   .theme--light.v-btn {
     color: white;
   }
+
 </style>
