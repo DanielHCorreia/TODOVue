@@ -76,6 +76,8 @@ export default {
 
   #login {
     background-color: #50435D;
+    background-image: url('../assets/Celular_Android_–_12.svg');
+    background-repeat: no-repeat;
   }
 
   .login-box {

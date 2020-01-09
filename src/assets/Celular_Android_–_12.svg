@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="360" height="640" viewBox="0 0 360 640">
+  <defs>
+    <clipPath id="clip-Celular_Android_12">
+      <rect width="360" height="640"/>
+    </clipPath>
+  </defs>
+  <g id="Celular_Android_12" data-name="Celular Android – 12" clip-path="url(#clip-Celular_Android_12)">
+    <rect width="360" height="640" fill="rgba(245,245,245,0)"/>
+    <circle id="Elipse_2" data-name="Elipse 2" cx="89.5" cy="89.5" r="89.5" transform="translate(30 -63)" fill="#fff"/>
+    <circle id="Elipse_3" data-name="Elipse 3" cx="37.5" cy="37.5" r="37.5" transform="translate(185 38)" fill="#fff"/>
+    <circle id="Elipse_4" data-name="Elipse 4" cx="27.5" cy="27.5" r="27.5" transform="translate(313 -10)" fill="#fff"/>
+    <ellipse id="Elipse_17" data-name="Elipse 17" cx="31" cy="32.5" rx="31" ry="32.5" transform="matrix(-0.259, -0.966, 0.966, -0.259, -8.778, 55.864)" fill="#fff"/>
+    <ellipse id="Elipse_20" data-name="Elipse 20" cx="21.5" cy="21" rx="21.5" ry="21" transform="matrix(-0.259, -0.966, 0.966, -0.259, 289.431, 26.203)" fill="#fff"/>
+    <circle id="Elipse_21" data-name="Elipse 21" cx="71.5" cy="71.5" r="71.5" transform="translate(242 525)" fill="#fff"/>
+    <circle id="Elipse_22" data-name="Elipse 22" cx="19" cy="19" r="19" transform="translate(336 513)" fill="#fff"/>
+  </g>
+</svg>

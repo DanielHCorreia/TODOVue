@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="360" height="640" viewBox="0 0 360 640">
+  <defs>
+    <clipPath id="clip-Celular_Android_13">
+      <rect width="360" height="640"/>
+    </clipPath>
+  </defs>
+  <g id="Celular_Android_13" data-name="Celular Android – 13" clip-path="url(#clip-Celular_Android_13)">
+    <rect width="360" height="640" fill="rgba(245,245,245,0)"/>
+    <g id="Grupo_1" data-name="Grupo 1">
+      <circle id="Elipse_24" data-name="Elipse 24" cx="37.5" cy="37.5" r="37.5" transform="translate(185 39)" fill="#50435d" opacity="0.9"/>
+      <circle id="Elipse_25" data-name="Elipse 25" cx="27.5" cy="27.5" r="27.5" transform="translate(313 -9)" fill="#50435d" opacity="0.9"/>
+      <ellipse id="Elipse_27" data-name="Elipse 27" cx="21.5" cy="21" rx="21.5" ry="21" transform="matrix(-0.259, -0.966, 0.966, -0.259, 289.431, 27.203)" fill="#50435d" opacity="0.9"/>
+      <circle id="Elipse_28" data-name="Elipse 28" cx="71.5" cy="71.5" r="71.5" transform="translate(242 526)" fill="#50435d" opacity="0.9"/>
+      <circle id="Elipse_29" data-name="Elipse 29" cx="19" cy="19" r="19" transform="translate(336 514)" fill="#50435d" opacity="0.9"/>
+    </g>
+  </g>
+</svg>
