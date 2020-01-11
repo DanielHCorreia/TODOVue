@@ -6,6 +6,7 @@
 
 <script>
 import Login from './components/Login'
+/* import Cadastro from './components/Cadastro' */
 
 export default {
   name: 'App',
