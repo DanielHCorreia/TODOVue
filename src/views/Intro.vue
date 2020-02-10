@@ -8,17 +8,11 @@
               Bubble
          </h1>
         <p v-show="info">
-<<<<<<< HEAD
          
             <router-link to="/login" class="intro-logo-link">
              acesse >>  
             </router-link> 
            
-=======
-            <router-link to="/login" class="intro-logo-link">
-             acesse >>  
-            </router-link> 
->>>>>>> 9c3af6a139913687e89aa73f48f37895916f1714
         </p>
         <p class="intro-logo-info"
           v-show="!info">
@@ -63,15 +57,8 @@ export default {
 
   #intro{
       background-color: #50435D;
-<<<<<<< HEAD
       background-size: cover;
       overflow: hidden;
-=======
-      background-image: url('../assets/Celular_Android_–_12.svg');
-      background-size: cover;
-      overflow: hidden;
-      background-position-y: bottom;
->>>>>>> 9c3af6a139913687e89aa73f48f37895916f1714
   }
   .intro-logo{
       display: flex;
@@ -91,11 +78,7 @@ export default {
       color:white;
       font-family: 'Public Sans', sans-serif;
       font-size: 1.1rem;
-<<<<<<< HEAD
       margin: 0px 15px 100px 15px;
-=======
-      margin: 0px 15px 0px 15px;
->>>>>>> 9c3af6a139913687e89aa73f48f37895916f1714
   }
 
   .logo-info-voltar{
@@ -110,10 +93,7 @@ export default {
     font-family: 'Amatic SC', cursive;
     font-size: 7rem;
     font-weight: normal;
-<<<<<<< HEAD
     cursor:pointer;
-=======
->>>>>>> 9c3af6a139913687e89aa73f48f37895916f1714
 
   }
 
